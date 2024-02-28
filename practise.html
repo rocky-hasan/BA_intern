@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type='text/css' href="main.css"> <!-- Link to external CSS file -->
+
+</head>
+<body>
+    
+    <main>
+        <section class='content'>
+            <div class='head'>
+                <h1 class='header'>Welcome to My Website</h1>
+            </div>
+        </section>
+        
+        <section>
+            <div class='maincontent'>
+                <h2 id='serv'></h2>
+                
+               <!-- <input type="text" id='codeText'> -->
+                <!-- <button onclick='checkCoding()' > check </button>  -->
+                <!--<button onclick='checkEvent()' > checkHere </button>-->
+                <div >
+                    <input type="button" value='Time Out' onclick='timeout()'/>
+                    <input type="button" value='Time Out clear' onclick='timeoutClear()'/>
+                </div>
+                <div id ='show'></div>
+                <div id='state' >Rakibul Hasan</div>
+                <hr/>
+                <script>
+                    //timeout
+                  /*  var i=0;
+                    var x= setInterval(function(){
+                        i++;
+                        alert('JavaScrpt Fundamentals');
+                        if(i==4){
+                            clearInterval(x);
+                        }
+                    },1000)   */
+                    /*clearTimeout();
+                    var timeout;
+                    function timeoutTrigger(){
+                            document.getElementById('show').innerHTML="time out has been triggered!!!";
+                    }
+                    
+                    function timeout(){
+                        timeout=setTimeout("timeoutTrigger()",3000);
+                        document.getElementById('show').innerHTML="time out has been started...";
+                    }
+                    function timeoutClear(){
+                            clearTimeout(timeout);
+                            document.getElementById('show').innerHTML="time out has been cleared";
+
+                    }*/
+                       /* function revFunc(x){
+                            return x.split("").reverse().join("")
+                        }
+                        var x="A B C D";
+                        var rev=revFunc(x);
+                        document.write(rev)*/
+                /*function totalNum(a,b){
+                    this.x=a;
+                    this.y=b;
+                    this.sum=function(){
+                        return this.x+this.y
+                    }
+                }
+                function totalProduct(a,b){
+                    this.x=a;
+                    this.y=b;
+                    this.product=function(){
+                        return this.x * this.y;
+                    }
+                }
+                totalNum.prototype=new totalProduct();
+                var ln=new totalNum(10,5);
+                console.log(ln.product());*/
+                  /*  function checkEvent(){
+                        console.log('Your action is here')
+                    }
+                function checkCoding(){
+                        var txt;
+                        var code=document.getElementById('codeText').value;
+            
+                    switch(code){
+                        case 'php':
+                             txt='this is php';
+                           break;
+                        case "Java":
+                            txt='this is Java';
+                           break;
+                        case "Python":
+                            txt='this is Python';
+                           break;
+                        default:
+                           txt='Invalid data!!';
+                    }
+                    document.getElementById('show').innerHTML=txt;
+                }*/
+                  /* document.write('Hello javascript<br>');
+                   var color='Red';
+                   function funcOne(){
+                    var color='Green';
+                     document.write(color);
+                   }
+                   funcOne();
+                   document.write('<br>');
+                   document.write(color); 
+                   //document.write(),innerHTML,window.alet(),console.log()
+                   // var arr1=['blue','Red','orrange'];
+                    var arr1=[30,10,40,50,1020];
+                    document.write('Before sorting : '+arr1+'<br>');
+                    function arrsort(x,y){
+                        return (x-y);
+                    }
+                    arr1.sort(arrsort);
+                   document.write('After Sorting: '+arr1);  
+                   var person={
+                    fname:'Rakibul Hasan',
+                    age:27,
+                    dept:'CSE',
+                    func:function(){
+                        return 'Name : '+ this.fname +'<br>Age : '+ this.age +'<br>Dept : '+ this.dept;
+                    }
+                   }
+                   document.write(person.fname+'<br>')
+                   var arr1=['blue','Red','orrange']
+                  while (true){
+                    if (i==3){
+                        break;
+                    }
+                    i++;
+                    document.write(i+'<br>')
+                   }*/
+                   
+                </script>
+            </div>
+        </section>
+    </main>
+    
+    <footer class='footer'>
+        <p>&copy;
+        <script>document.write(' 2024 My Website. All rights reserved.')</script>
+        </p>
+    </footer>
+    
+    <script src="scripts.js"></script> <!-- Link to external JavaScript file -->
+    <script>
+        // Inline JavaScript
+        
+
+    </script>
+</body>
+</html>
