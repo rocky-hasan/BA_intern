@@ -1,0 +1,22 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS-->
+         <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <title>{% block title %} {% endblock title %}</title>
+  </head>
+  <body>
+        {% block main_content %} {% endblock main_content %}
+
+  <!---  <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/proper.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>   --->
+{% block myscript %} {% endblock myscript %}
+  </body>
+</html>
